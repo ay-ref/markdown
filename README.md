@@ -79,7 +79,7 @@
 #### VSCode Extension
 
 - best way to do this is use from vscode extension `Markdown PDF`
-  - first convert your pdf to html file!
+  - first convert your markdown to html file!
   - then you can print your html to a pdf file!
   - even images print well in this approach!
   - you can even change html to make your own settings.
