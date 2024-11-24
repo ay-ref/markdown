@@ -72,6 +72,31 @@
     | table_2_1  | table_2_2  | table_2_3   | ... |
     | ... | ... | ... | ... |
 
+### Link
+
+- code:
+
+    ```md
+    [YOUR LINK TEXT](http://www.google.com)
+    ```
+
+- output:
+
+[YOUR LINK TEXT](http://www.google.com)
+  
+
+### Image
+
+- code:
+
+    ```md
+    ![image not shown text](./flame.jpg)
+    ```
+
+- output:
+
+    [YOUR LINK TEXT](http://www.google.com)
+
 ## Conversion
 
 ### To PDF
