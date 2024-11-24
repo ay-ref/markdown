@@ -95,7 +95,7 @@
 
 - output:
 
-    [YOUR LINK TEXT](http://www.google.com)
+    ![image not shown text](./flame.jpg)
 
 ## Conversion
 
