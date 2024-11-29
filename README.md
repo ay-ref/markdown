@@ -123,3 +123,9 @@
     ```shell
     pandoc *.md -o doc.pdf --pdf-engine=xelatex -V mainfont='Vazirmatn'
     ```
+
+  - more complete command
+
+    ```shell
+    pandoc README.md -o out.tex --standalone && pdflatex out.tex && xreader out.pdf
+    ```
