@@ -106,6 +106,10 @@
 
 ### To PDF
 
+#### install obsidian (BEST WAY for english and persian!)
+
+- copy your markdown codes and select export to pdf!
+
 #### VSCode Extension
 
 - best way to do this is use from vscode extension `Markdown PDF`
