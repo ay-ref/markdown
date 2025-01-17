@@ -1,5 +1,9 @@
 # Markdown
 
+## links
+
+- [EMOJI CHEATSHEETS](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
 ## setup
 
 - BEST PLACE TO WRITE ***ENGLISH*** MARKDOWN (ALSO TO GET EXPORT) IS **VSCODE**!
