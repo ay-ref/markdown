@@ -114,6 +114,13 @@
 
 - copy your markdown codes and select export to pdf!
 
+#### stackedit
+
+- go to [LINK](https://stackedit.io/app#).
+- paste your code.
+- export to html.
+- you can print your html!
+
 #### VSCode Extension
 
 - best way to do this is use from vscode extension `Markdown PDF`
