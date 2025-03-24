@@ -140,6 +140,10 @@
     pandoc *.md -o doc.pdf
     ```
 
+    > again better technique is to first convert your `md` file to `html`,
+    > by the command `pandoc *.md -o doc.html` and then convert it to `pdf`,
+    > by the printing the web page to `pdf`!
+
   - if you have persian also
 
     ```shell
