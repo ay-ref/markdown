@@ -130,6 +130,14 @@
   - then you can print your html to a pdf file!
   - even images print well in this approach!
   - you can even change html to make your own settings.
+ 
+> **Manual Installation**:
+>     1. download the chromium [Link](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/722234/chrome-linux.zip)
+>     2. download the extension `Markdown PDF` from its github or somewhere
+>     3. install the `Markdown PDF`
+>     4. config the chrome download in your system to your `Markdown PDF` vscode settings
+>     5. remove and reinstall `Markdown PDF` and restart vscode
+>     6. in markdown file `ctrl + shift + p` type `pdf`
 
 #### Pandoc
 
