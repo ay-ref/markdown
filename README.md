@@ -163,3 +163,8 @@
     ```shell
     pandoc README.md -o out.tex --standalone && pdflatex out.tex && xreader out.pdf
     ```
+
+    ```shell
+    pandoc --from markdown --to latex --standalone --embed-resources --toc --number-sections --highlight-style=zenburn
+    ```
+    
