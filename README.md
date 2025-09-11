@@ -6,8 +6,8 @@
 
 ## setup
 
-- BEST PLACE TO WRITE ***ENGLISH*** MARKDOWN (ALSO TO GET EXPORT) ARE **OBSIDIAN**, **VSCODE**!
-- BEST PLACE TO WRITE ***PERSIAN*** MARKDOWN (ALSO TO GET EXPORT) IS **OBSIDIAN**!
+- BEST PLACE TO WRITE **_ENGLISH_** MARKDOWN (ALSO TO GET EXPORT) ARE **OBSIDIAN**, **VSCODE**!
+- BEST PLACE TO WRITE **_PERSIAN_** MARKDOWN (ALSO TO GET EXPORT) IS **OBSIDIAN**!
 
 ## Instructions
 
@@ -17,14 +17,14 @@
 
 - code:
 
-    ```shell
-    - item1
-        - childitem1
-            - item 1.1.1
-        - childitem2
-            - item 1.2.1
-            - item 1.2.2
-    ```
+  ```shell
+  - item1
+      - childitem1
+          - item 1.1.1
+      - childitem2
+          - item 1.2.1
+          - item 1.2.2
+  ```
 
 - output:
 
@@ -39,74 +39,73 @@
 
 - code:
 
-    ```shell
-    `this is some code`
-    ```
+  ```shell
+  `this is some code`
+  ```
 
 - output:
 
-    `this is some code`
+  `this is some code`
 
 ### Multiline Code
 
 - code:
 
-    ```shell
-        ```python
-        print('this is some python codee')    
-        ```
-    ```
+  ````shell
+      ```python
+      print('this is some python codee')
+      ```
+  ````
 
 - output:
 
-    ```python
-    print('this is some python codee')    
-    ```
+  ```python
+  print('this is some python codee')
+  ```
 
 ### Table
 
 - code:
 
-    ```md
-        | table_col1 | table_col2 | talble_col3 | ... |
-        | :--------  | :--------: | ----------: | --- |
-        | table_1_1  | table_1_2  | table_1_3   | ... |
-        | table_2_1  | table_2_2  | table_2_3   | ... |
-        | ... | ... | ... | ... |
-    ```
+  ```md
+      | table_col1 | table_col2 | talble_col3 | ... |
+      | :--------  | :--------: | ----------: | --- |
+      | table_1_1  | table_1_2  | table_1_3   | ... |
+      | table_2_1  | table_2_2  | table_2_3   | ... |
+      | ... | ... | ... | ... |
+  ```
 
 - output:
 
-    | table_col1 | table_col2 | talble_col3 | ... |
-    | :--------  | :--------: | ----------: | --- |
-    | table_1_1  | table_1_2  | table_1_3   | ... |
-    | table_2_1  | table_2_2  | table_2_3   | ... |
-    | ... | ... | ... | ... |
+  | table_col1 | table_col2 | talble_col3 | ... |
+  | :--------- | :--------: | ----------: | --- |
+  | table_1_1  | table_1_2  |   table_1_3 | ... |
+  | table_2_1  | table_2_2  |   table_2_3 | ... |
+  | ...        |    ...     |         ... | ... |
 
 ### Link
 
 - code:
 
-    ```md
-    [YOUR LINK TEXT](http://www.google.com)
-    ```
+  ```md
+  [YOUR LINK TEXT](http://www.google.com)
+  ```
 
 - output:
 
 [YOUR LINK TEXT](http://www.google.com)
-  
 
 ### Image
 
 - code:
 
-    ```md
-    ![image not shown text](./flame.jpg)
-    ```
+  ```md
+  ![image not shown text](./flame.jpg)
+  ```
 
 - output:
 
-    ![image not shown text](./flame.jpg)
+  ![image not shown text](./flame.jpg)
 
 ## Conversion
 
@@ -130,18 +129,13 @@
   - then you can print your html to a pdf file!
   - even images print well in this approach!
   - you can even change html to make your own settings.
- 
-> **Manual Installation**:
->     1. download the chromium [Link](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/722234/chrome-linux.zip)
->     2. download the extension `Markdown PDF` from its github or somewhere
->     3. install the `Markdown PDF`
->     4. config the chrome download in your system to your `Markdown PDF` vscode settings
->     5. remove and reinstall `Markdown PDF` and restart vscode
->     6. in markdown file `ctrl + shift + p` type `pdf`
+
+> **Manual Installation**: 1. download the chromium [Link](https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/722234/chrome-linux.zip) 2. download the extension `Markdown PDF` from its github or somewhere 3. install the `Markdown PDF` 4. config the chrome download in your system to your `Markdown PDF` vscode settings 5. remove and reinstall `Markdown PDF` and restart vscode 6. in markdown file `ctrl + shift + p` type `pdf`
 
 #### Pandoc
 
 - for fast transmition also you can use `pandoc`
+
   - you can do multiple markdown to one pdf!
 
     ```shell
@@ -165,6 +159,9 @@
     ```
 
     ```shell
-    pandoc --from markdown --to latex --standalone --embed-resources --toc --number-sections --highlight-style=zenburn
+    pandoc --from markdown --to latex --standalone
+            --embed-resources --toc --number-sections
+            --highlight-style=zenburn --template eisvogel
     ```
-    
+
+    > you can add `eisvogel` to the latex template path `~/.pandoc/templates/`!
