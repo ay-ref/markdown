@@ -136,6 +136,18 @@
 
 - for fast transmition also you can use `pandoc`
 
+  - default engine is `pdflatex` you can do the `typst` as engine
+ 
+    ```shell
+    pandoc *.md -o out.pdf --pdf-engine=YOURTYPSTPATH
+    ```
+
+  - also you can convert to `typst` first and then do what you want!
+ 
+    ```shell
+    pandoc *.md -o out.typ  
+    ```
+
   - you can do multiple markdown to one pdf!
 
     ```shell
